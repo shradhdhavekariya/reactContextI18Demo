@@ -1,0 +1,19 @@
+query Pools($filter: Pool_filter) {
+  pools(where: $filter) {
+    id
+    totalWeight
+    tokensList
+    tokens {
+      address
+      symbol
+      denormWeight
+      balance
+      xToken {
+        token {
+          id
+        }
+      }
+    }
+    totalShares
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "token": {
+    "unlock": "Unlock {{token}}",
+    "unlocking": "Unlocking {{token}}",
+    "unlocked": "({{token}}) is unlocked."
+  }
+}

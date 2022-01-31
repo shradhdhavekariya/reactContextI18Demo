@@ -1,0 +1,31 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="24.9986" cy="24.9996" r="23.0846" fill="url(#silver_paint0_linear)"/>
+<circle cx="25.0005" cy="25" r="18.3013" transform="rotate(60 25.0005 25)" fill="#E2EBEF"/>
+<circle cx="25.0005" cy="25" r="18.3013" transform="rotate(60 25.0005 25)" fill="url(#silver_paint1_linear)"/>
+<circle cx="25.0019" cy="25" r="15.8056" fill="url(#silver_paint2_linear)"/>
+<path d="M17.7188 25.2084L25.4136 14.29L32.7965 25.2084L25.4136 36.0228L17.7188 25.2084Z" fill="#B8D0DB"/>
+<path d="M19.7969 25.1408L25.3159 17.3047L30.6113 25.1408L25.3159 32.9024L19.7969 25.1408Z" fill="url(#silver_paint3_linear)"/>
+<path d="M23.1289 25.1179L25.2516 22.0879L27.2883 25.1179L25.2516 28.119L23.1289 25.1179Z" fill="url(#silver_paint4_linear)"/>
+<defs>
+<linearGradient id="silver_paint0_linear" x1="14.7042" y1="41.4291" x2="40.9082" y2="6.90629" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EEF3F5"/>
+<stop offset="1" stop-color="#E1EBEF"/>
+</linearGradient>
+<linearGradient id="silver_paint1_linear" x1="16.8391" y1="38.0252" x2="37.6135" y2="10.6558" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F3F8FA"/>
+<stop offset="1" stop-color="#F6F9FB"/>
+</linearGradient>
+<linearGradient id="silver_paint2_linear" x1="17.001" y1="37.5" x2="35.895" y2="12.6118" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E6EDF0"/>
+<stop offset="1" stop-color="#D4E7EF"/>
+</linearGradient>
+<linearGradient id="silver_paint3_linear" x1="24.998" y1="21.5" x2="20.7255" y2="31.9589" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F3F8FA"/>
+<stop offset="1" stop-color="#D4E7EF"/>
+</linearGradient>
+<linearGradient id="silver_paint4_linear" x1="26" y1="17" x2="22.9327" y2="25.3768" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BFD2DB"/>
+<stop offset="1" stop-color="#F0F6F9"/>
+</linearGradient>
+</defs>
+</svg>

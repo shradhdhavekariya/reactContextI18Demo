@@ -1,0 +1,12 @@
+export const rinkebyToMainnetMap: Record<string, string> = {
+  '0x199eeb1de08fcc9371249d88b710369d0c6ff255':
+    '0xb17548c7b510427baac4e267bea62e800b247173', // SMT
+  '0x2370694665fecc03c86693e9a03b6874e9321372':
+    '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599', // WBTC
+  '0xc778417e063141139fce010982780140aa0cd5ab':
+    '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2', // WETH
+  '0x98e06323f0008dd8990229c3ff299353b69491c0':
+    '0x6b175474e89094c44da98b954eedeac495271d0f', // DAI
+  '0x775badfdcc4478ba25d55f076b781fd66cdaf408':
+    '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', // USDC
+}

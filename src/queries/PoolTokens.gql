@@ -1,0 +1,21 @@
+query PoolTokens {
+  poolTokens {
+    id
+    symbol
+    name
+    decimals
+    address
+    balance
+    xToken {
+      id
+      name
+      symbol
+      token {
+        id
+        name
+        symbol
+        decimals
+      }
+    }
+  }
+}

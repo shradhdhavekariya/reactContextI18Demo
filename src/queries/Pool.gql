@@ -1,0 +1,58 @@
+query Pool(
+  $id: String!
+  $currentTimestamp: Int
+) {
+  pool(id: $id) {
+    id
+    controller
+    publicSwap
+    finalized
+    crp
+    swapFee
+    totalSwapVolume
+    tokensList
+    totalWeight
+    totalShares
+    liquidity
+    totalSwapFee
+    createTime
+    crpController
+    swapsCount
+    holdersCount
+    tx
+    tokens {
+      id
+      symbol
+      name
+      address
+      decimals
+      denormWeight
+      xToken {
+        id
+        name
+        symbol
+        token {
+          id
+          name
+          symbol
+        }
+      }
+      balance
+    }
+    shares {
+      id
+      userAddress {
+        id
+      }
+      balance
+    }
+    swaps(
+      first: 1
+      orderBy: "timestamp"
+      orderDirection: "desc"
+      where: { timestamp_lt: $currentTimestamp }
+    ) {
+      poolTotalSwapVolume
+    }
+  }
+}

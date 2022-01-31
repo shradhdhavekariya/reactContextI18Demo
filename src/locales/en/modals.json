@@ -1,0 +1,29 @@
+{
+  "connectionModal": {
+    "header": "Welcome to Swarm Markets",
+    "subheader": "Connect your wallet and start your journey into the world of licensed DeFi.",
+    "continueWithoutWalletLink": "Continue without wallet",
+    "newToEth": "New to Ethereum? ",
+    "newToEthLink": "Learn more about wallets.",
+    "agreeTo": "By unlocking Your wallet You agree to our ",
+    "tOSLink": "Terms of Service",
+    "privacyPolicyLink": "Privacy Policy",
+    "cookiePolicyLink": "Cookie Policy",
+    "moreWalletsLabel": "More wallets coming soon:",
+    "metaMaskNotFound": "MetaMask not found",
+    "metaMaskNotInstalledError": "Please install MetaMask extension then reload the page.",
+    "connectionRejectedByUserError": "Connection to MetaMask failed",
+    "install": "Install"
+  },
+  "successfullyConnectedModal": {
+    "header": "Wallet connected",
+    "status": "You have connected with this address:",
+    "instruction": "To access your Passport or create a new one, sign a message with your address. This does not cost any network fees.",
+    "instructionLink": "Learn more",
+    "nextButton": "Set up Passport",
+    "backButton": "Look around",
+    "closeButton": "Close",
+    "signButton": "Sign message",
+    "goToPassportSetup": "Go to Passport setup"
+  }
+}

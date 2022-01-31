@@ -1,0 +1,32 @@
+{
+  "connect": {
+    "title": "Connect to a wallet",
+    "content": "New user? Connect to a wallet to see your asset balances. Start trading in under 10 minutes.",
+    "button": "Connect wallet",
+    "link": "Learn more"
+  },
+  "completePassport": {
+    "title": "Get started in a few minutes.",
+    "content": "Complete your passport setup to enable your Swarm Markets account.",
+    "button": "Complete passport",
+    "link": "Learn more"
+  },
+  "signIn": {
+    "title": "Get started in a few minutes.",
+    "content": "To access your Passport or create a new one, sign in with your ethereum address.",
+    "button": "Sign in",
+    "link": "Learn more"
+  },
+  "transactionForbidden": "This address is not able to transact",
+  "docScan": {
+    "success": "Your identity has been verified",
+    "error": "Sorry, something went wrong while scanning your documents"
+  },
+  "changeNetwork": {
+    "title": "Wrong network",
+    "content": "Connect your wallet to [MAINNET/POLYGON] to continue.",
+    "button": "Switch network",
+    "link": "Learn how to change networks.",
+    "sub-content": " or use the button below."
+  }
+}

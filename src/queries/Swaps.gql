@@ -1,0 +1,24 @@
+query Swaps($limit: Int, $skip: Int = 0, $filter: Swap_filter) {
+  swaps(
+    where: $filter
+    first: $limit
+    skip: $skip
+    orderBy: "timestamp"
+    orderDirection: "desc"
+  ) {
+    id
+    tokenIn
+    tokenInSym
+    tokenAmountIn
+    tokenOut
+    tokenOutSym
+    tokenAmountOut
+    poolTotalSwapVolume
+    timestamp
+    value
+    feeValue
+    userAddress {
+      id
+    }
+  }
+}

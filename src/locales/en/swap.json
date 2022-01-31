@@ -1,0 +1,87 @@
+{
+  "header": "Swap",
+  "assets": {
+    "header": "Swap on",
+    "swapButton": "Swap",
+    "loading": "Loading",
+    "from": "From",
+    "balance": "Balance: {{balance}}",
+    "to": "To",
+    "exchangeRate": "Price: 1 {{tokenIn}} per {{rate}} {{tokenOut}}",
+    "transactionFee": "Transaction fee:",
+    "protocolFee": "Protocol fee:",
+    "transactionFeeTooltip": "Liquidity Provider Fee: {{swapFee}} {{swapFeeToken}} (remains in pool) + Protocol Fee: {{protocolFee}} {{protocolFeeToken}}",
+    "priceImpact": "Price impact:",
+    "priceImpactTooltip": "Price impact",
+    "discountFee": "SMT protocol fee discount",
+    "discountFeeTooltip": "Enable 50% protocol fee discount when paid in SMT. Discount not available on all pairs.",
+    "swapSuccess": "Swap transaction completed!",
+    "swapFail": "Swap transaction failed!",
+    "swapDetails": "SEE DETAILS",
+    "insufficientBalance": "Insufficient {{symbol}} balance",
+    "insufficientPoolBalance": "Insufficient {{symbol}} pool balance",
+    "maxInRatio": "Amount entered exceeds pool limit",
+    "unlockToken": "Enable {{tokenName}}",
+    "selectToken": "Select token",
+    "toggleSwapHistory": "Recent swaps",
+    "toggleSettings": "Toggle settings"
+  },
+  "proxyContractModal": {
+    "header": "Set up your proxy contract",
+    "flash": "A one-time network fee will be applied",
+    "content": "Your first transaction will include a network fee to deploy your personal proxy contract. This is a one-time action that helps you transact more easily, saves you fees in the long run, and can be used with other Gnosis Safe applications.",
+    "link": "Learn more about proxy contracts.",
+    "continue": "Continue",
+    "cancel": "Cancel"
+  },
+  "tokenModal": {
+    "filterHeader": "Filter by asset",
+    "selectHeader": "Select a token",
+    "inputPlaceholder": "Search token name or ticker",
+    "button": "Cancel",
+    "loading": "Loading...",
+    "error": "An error occurred!",
+    "noResults": "No tokens found"
+  },
+  "advancedSettings": {
+    "header": "Advanced transaction settings",
+    "tolerance": "Slippage tolerance",
+    "toleranceTooltip": "Your transaction will revert if the price changes unfavorably by more than this percentage.",
+    "custom": "Custom %",
+    "deadline": "Transaction deadline",
+    "deadlineTooltip": "Your transaction will revert if it is pending for more than this long.",
+    "minutes": "Minutes",
+    "discountAutoPay": "Autopay platform fees in SMT (50% discount)",
+    "discountAutoPayTooltip": "Autopay platform fees in SMT (50% discount)",
+    "savedTextToastMessage": "Saved for this session.",
+    "saveBtn": "Save"
+  },
+  "recentSwaps": {
+    "header": "Recent swaps",
+    "details": "Details",
+    "viewAllTransactions": "View all swaps",
+    "modal": {
+      "header": "Swap details",
+      "status": "Status",
+      "swappedFrom": "Swapped from",
+      "swappedTo": "Swapped to",
+      "transactionTime": "Transaction time",
+      "priceAtTransaction": "Price at transaction",
+      "networkConfirmations": "Network confirmations",
+      "transactionHash": "Transaction hash",
+      "copy": "Copy",
+      "copiedToClipboard": "Copied to Clipboard",
+      "viewOnEtherscan": "View on Etherscan",
+      "close": "Close"
+    },
+    "noSwap": "No swaps in the past 7 days",
+    "notConnected": "No account connected",
+    "noTokenPair": "No token pair selected"
+  },
+  "transaction": {
+    "submitted": "Transaction submitted successfully",
+    "view": "View",
+    "completed": "Swap transaction completed!",
+    "seeDetails": "SEE DETAILS"
+  }
+}

@@ -1,0 +1,27 @@
+query NativeTokens($filter: Token_filter) {
+  tokens(where: $filter, orderBy: name) {
+    id
+    decimals
+    name
+    symbol
+    xToken {
+      id
+      decimals
+      name
+      symbol
+      paused
+      poolTokens {
+        denormWeight
+        balance
+        decimals
+        poolId {
+          id
+          totalWeight
+          publicSwap
+          swapFee
+          tokensList
+        }
+      }
+    }
+  }
+}

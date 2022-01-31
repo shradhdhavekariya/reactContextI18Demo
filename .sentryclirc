@@ -1,0 +1,4 @@
+[defaults]
+url=https://sentry.swarm.markets
+org=swarm-markets
+project=swarm-markets-ui

@@ -1,0 +1,70 @@
+{
+  "header": "Wallet",
+  "walletSelector": {
+    "selectedAddress": "Selected address",
+    "walletTotalValue": "Wallet total value",
+    "walletCounter": "{{ count }} more wallets connected",
+    "addAddress": "Manage addresses"
+  },
+  "assetTokens": {
+    "header": "Asset tokens on {{network}}",
+    "asset": "Asset",
+    "native": "Available in wallet",
+    "pooled": "In Swarm Markets",
+    "actions": {
+      "swap": "Swap",
+      "pool": "Pools",
+      "unwrap": "Unwrap",
+      "bridge": "Bridge to"
+    },
+    "enableTooltip": "Enable the asset to use it",
+    "confirmDisable": "Disable token ({{token}})",
+    "disableWarning": "This action resets this asset's spending allowance on Swarm Markets to zero. Enable the asset to use it again."
+  },
+  "poolTokens": {
+    "header": "Pool tokens on {{network}}",
+    "asset": "Asset",
+    "pooled": "In Swarm Markets",
+    "actions": {
+      "addLiquidity": "Add liquidity",
+      "removeLiquidity": "Remove liquidity"
+    },
+    "noPools": "No pool tokens yet. ",
+    "getStarted": " to get started"
+  },
+  "queryStatuses": {
+    "noAccount": "Please connect your wallet to our application.",
+    "loading": "Loading...",
+    "error": "An error occurred!",
+    "noResults": "No tokens found. Transfer assets to this address or ",
+    "getCrypto": "get some crypto"
+  },
+  "proxyTokens": {
+    "header": "Proxy address",
+    "assets": "Asset(s)",
+    "balance": "Balance",
+    "tooltip": "Liquidity transactions can result in some wrapped assets remaining in the proxy address.",
+    "andOthersWithCount": " and {{count}} other",
+    "andOthersWithCount_plural": " and {{count}} others",
+    "claimAll": "Claim All",
+    "connectAccount": "Please connect this account in MetaMask and try again",
+    "claimAllSuccess": "Tokens in proxy address were claimed successfully",
+    "noResults": "You have no asset tokens in your proxy address."
+  },
+  "loyaltyLevels": {
+    "title": "Loyalty Levels",
+    "description": "Your loyalty level is based on the ratio of SMT to the other assets in your wallet.",
+    "baseParagraph": "Participate",
+    "silverParagraph": "25% boost",
+    "goldParagraph": "50% boost",
+    "platinumParagraph": "100% boost",
+    "unlocked": "Unlocked",
+    "current": "Current",
+    "buyToUpgrade": "Buy to upgrade",
+    "smt": "SMT",
+    "smtInWallet": "SMT in wallet",
+    "rewards": "rewards",
+    "loyaltyLevel": "Loyalty Level",
+    "youAre": "You are "
+  }
+}

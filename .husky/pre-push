@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+echo "${GREEN}>>>>>>>>>> HUSKY pre-push lint check <<<<<<<<<<${NC}" && yarn lint

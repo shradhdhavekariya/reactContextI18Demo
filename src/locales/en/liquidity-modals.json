@@ -1,0 +1,26 @@
+{
+  "poolOverview": "Pool Overview",
+  "poolAddress": "Pool address",
+  "yourShare": "Your share",
+  "swapFee": "Swap fee",
+  "learnHow": "Learn how",
+  "add": {
+    "header": "Add liquidity",
+    "selectAssetsToAdd": "Select assets to add",
+    "addMultipleInstructions": "Would you like to add multiple assets at once?",
+    "addMultipleTitle": "Add multiple assets",
+    "addMultipleSubtitle": "Share of available assets in pool ratio"
+  },
+  "remove": {
+    "header": "Remove liquidity",
+    "selectAssetsToRemove": "Select assets to remove",
+    "noAssetsToRemove": "No assets to remove. Add some assets first.",
+    "removeMultipleTitle": "Remove multiple assets",
+    "removeMultipleSubtitle": "Proportion of my liquidity to remove"
+  },
+  "addSuccess": "You successfully added {{amount}} SPT to your share",
+  "removeSuccess": "You successfully removed {{amount}} SPT tokens from your share",
+  "errors": {
+    "poolLimitExceeded": "Amount exceeds pool limit"
+  }
+}

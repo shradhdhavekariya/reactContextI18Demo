@@ -1,0 +1,107 @@
+{
+  "header": "Pools",
+  "tabs": {
+    "private": "Private pools",
+    "shared": "Shared pools",
+    "my-pools": "My pools",
+    "create": "Create a pool"
+  },
+  "headings": {
+    "private": "Private pools",
+    "shared": "Shared pools",
+    "my-pools": "My pools",
+    "create": "My pools"
+  },
+  "th": {
+    "poolAddress": "Pool address",
+    "assets": "Assets",
+    "extraRewards": "Rewards X",
+    "swapFee": "Swap fee",
+    "marketCap": "Market cap",
+    "myShare": "My share",
+    "volume": "Volume (24h)"
+  },
+  "noPools": "No pools in this category",
+  "filterByAsset": "Filter by asset",
+  "clearAll": "Clear all",
+  "addLiquidity": "Add liquidity",
+  "rewardsBalance": {
+    "tokenInfo": "Token info",
+    "smt": "SMT",
+    "walletBalance": "Balance in wallet",
+    "unclaimedBalance": "Unclaimed balance",
+    "price": "Price",
+    "claimBtnText": "Claim {{balance}} SMT",
+    "smtBalance": "SMT Balance",
+    "totalSupply": "Total Supply",
+    "releaseDistributions": "Release Distributions",
+    "releaseThisWeek": "Release This Week",
+    "decreasingReleaseSchedule": "Decreasing release schedule",
+    "liquidityProvider": "Liquidity Providers",
+    "trader": "Traders",
+    "stacker": "Stacker",
+    "community": "Community",
+    "circulating": "Circulating",
+    "rewardsDistributionLogs": "Rewards distribution logs",
+    "buySmt": "Buy SMT",
+    "loyaltyLevelTooltip": "The ratio of SMT to the other assets in your account.",
+    "releaseDistributionsTooltip": "SMT rewards are distributed weekly",
+    "copyAddress": "Copy Address",
+    "loyaltyLevel": {
+      "title": "Loyalty Level",
+      "baseParagraph": "Participate",
+      "silverParagraph": "+25% boost",
+      "goldParagraph": "+50% boost",
+      "platinumParagraph": "+100% boost",
+      "unlocked": "Unlocked",
+      "current": "Current",
+      "toUpgrade": "To Upgrade"
+    },
+    "stakeSMT": {
+      "title": "Stake SMT",
+      "available": "Available",
+      "staked": "Staked",
+      "deposit": "Deposit"
+    },
+    "copiedToClipboard": "Address ({{address}}) copied to clipboard."
+  },
+  "createPool": {
+    "title": "Create a pool",
+    "tabs": {
+      "shared": "Shared",
+      "smart": "Smart"
+    },
+    "assets": {
+      "title": "Assets",
+      "myBalance": "My balance",
+      "weight": "Weight",
+      "percent": "Percent",
+      "amount": "Amount",
+      "price": "Price",
+      "totalValue": "Total value",
+      "addToken": "Add token"
+    },
+    "advanced": {
+      "title": "Advanced pool settings",
+      "swapFee": "Swap fee",
+      "tokenSymbol": "Token symbol",
+      "tokenName": "Token name",
+      "initialSupply": "Initial supply",
+      "create": "Create",
+      "tooltip": "Amount earned by liquidity providers from each transaction"
+    },
+    "smartPoolRights": {
+      "title": "Smart pool rights",
+      "options": {
+        "1": "Can pause swapping",
+        "2": "Can change swap fee",
+        "3": "Can change weights",
+        "4": "Can change tokens",
+        "5": "Restrict LPs to a whitelist",
+        "6": "Can limit total SPT supply"
+      },
+      "minimumGradualUpdateDuration": "Minimum gradual update duration (in blocks)",
+      "weightRange": "Weight range limited to {{from}}$ - {{to}}% when change weights enabled"
+    }
+  }
+}

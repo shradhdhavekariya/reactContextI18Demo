@@ -1,0 +1,61 @@
+{
+  "poolBoxes": {
+    "swapFee": "Swap fee",
+    "liquidity": "Liquidity",
+    "myPoolShare": "My pool share",
+    "volume": "Volume (24h)"
+  },
+  "charts": {
+    "liquidity": "Liquidity",
+    "volume": "Volume",
+    "feeReturns": "Fee returns"
+  },
+  "poolTabs": {
+    "th": {
+      "balances": "Balances",
+      "swaps": "Swaps",
+      "holders": "Holders",
+      "about": "About"
+    },
+    "balances": {
+      "th": {
+        "assets": "Assets",
+        "weight": "Weight",
+        "poolBalance": "Pool balance",
+        "myBalance": "My balance",
+        "myAssetValue": "My asset value"
+      }
+    },
+    "swaps": {
+      "th": {
+        "time": "Time",
+        "tradeIn": "Trade in",
+        "tradeOut": "Trade out",
+        "transaction": "Transaction",
+        "swapFee": "Swap fee"
+      }
+    },
+    "holders": {
+      "th": {
+        "userAddress": "User Address",
+        "holder": "Holder Proxy",
+        "balance": "Balance",
+        "value": "Value",
+        "shares": "Shares"
+      }
+    },
+    "about": {
+      "poolType": "Pool type",
+      "creator": "Creator",
+      "creationDate": "Creation date",
+      "sptAsset": "SPT asset",
+      "sptTotalSupply": "SPT total supply",
+      "assetInfo": "Asset info",
+      "publicSwap": "Public swap",
+      "totalSwapVolume": "Total swap volume",
+      "totalSwapFee": "Total swap fee"
+    }
+  },
+  "addLiquidity": "Add liquidity",
+  "removeLiquidity": "Remove liquidity"
+}

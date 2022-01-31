@@ -1,0 +1,23 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address[]",
+        "name": "tokenAddresses",
+        "type": "address[]"
+      },
+      { "internalType": "uint256[]", "name": "amounts", "type": "uint256[]" },
+      { "internalType": "uint256", "name": "swapFee", "type": "uint256" },
+      {
+        "internalType": "uint256[]",
+        "name": "xTokensWeight",
+        "type": "uint256[]"
+      },
+      { "internalType": "string", "name": "poolName", "type": "string" }
+    ],
+    "name": "standardPoolCreation",
+    "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

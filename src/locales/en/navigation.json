@@ -1,0 +1,21 @@
+{
+  "menu": {
+    "swap": "Swap",
+    "pools": "Pools",
+    "wallet": "Wallet",
+    "passport": "Passport",
+    "more": "More",
+    "about": "About",
+    "faq": "FAQ"
+  },
+  "footer": {
+    "docs": "Docs",
+    "connectedAddress": "Connected address:",
+    "connectionTooltip": "You're on network {{name}}",
+    "noAddressConnected": "No address connected",
+    "connected": "Connected",
+    "disconnected": "Disconnected"
+  },
+  "userDisconnected": "You have been disconnected",
+  "back": "Back"
+}

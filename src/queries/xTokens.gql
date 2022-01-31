@@ -1,0 +1,14 @@
+query xTokens($filter: XToken_filter) {
+  xtokens(where: $filter) {
+    decimals
+    id
+    name
+    paused
+    symbol
+    token {
+      id
+      name
+      symbol
+    }
+  }
+}

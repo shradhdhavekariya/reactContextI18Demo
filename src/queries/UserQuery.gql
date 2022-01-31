@@ -1,0 +1,22 @@
+query User($id: ID!) {
+  user(id: $id) {
+    sharesOwned {
+      balance
+      poolId {
+        totalWeight
+        totalShares
+        tokens {
+          address
+          denormWeight
+          balance
+          xToken {
+            token {
+              symbol
+              id
+            }
+          }
+        }
+      }
+    }
+  }
+}

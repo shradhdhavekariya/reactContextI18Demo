@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.suffix ::after {
+  content: '%';
+  position: absolute;
+  right: 10px;
+  top: 24px;
+  font-weight: 700;
+}
+
+button {
+  outline: none;
+}
+
+.jXpUNy::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+.bn-onboard-custom.bn-onboard-modal {
+  z-index: 99999;
+}

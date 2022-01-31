@@ -1,0 +1,15 @@
+query TokensInfo {
+  tokens {
+    id
+    decimals
+    name
+    symbol
+  }
+
+  xtokens {
+    id
+    decimals
+    name
+    symbol
+  }
+}

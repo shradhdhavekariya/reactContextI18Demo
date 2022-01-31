@@ -1,0 +1,53 @@
+{
+  "onboarding": {
+    "message": "To be able to redeem your voucher, you have to onboard fully first. Please follow the steps below."
+  },
+  "form": {
+    "header": "Buy Vouchers",
+    "subheader": "Easily buy crypto vouchers, customize and send them as gift cards.",
+    "priceInputLabel": "Amount to buy",
+    "currentWorthLabel": "You are buying",
+    "selectCryptoLabel": "Select crypto",
+    "continueWithYotiDigitalID": "Continue with your Digital ID",
+    "userLoggedInMessage": "Logged in successfully.",
+    "buyButton": "Checkout",
+    "howToSetupYotiButton": "How to set up your Yoti",
+    "userNeedVerificationMessage": "Your account is in verification process. After we approve, you will get an email and then can start using Vouchers app. Thank you for your patience!",
+    "minVoucherValueValidationMessage": "Minimum amount must be",
+    "maxVoucherValueValidationMessage": "You are allowed {{currencySymbol}}{{limit}} of active vouchers at any time. You have {{currencySymbol}}{{remaining}} remaining",
+    "connectDigitalIdButton": "Connect your Digital ID",
+    "tosCheckboxLabel": "I have read and accept the <L1>Terms of Service</L1>.",
+    "truthfulInfoCheckboxLabel": "I confirm that all information I provide is truthful and complete, and that <L>I am not a US person or hold identity from other countries not serviced.<L>",
+    "privacyConsentCheckboxLabel": "I understand and accept the <L>Privacy Policy</L> and I consent to the collection, storage, and processing of my personal information accordingly.",
+    "amountLabelTooltip": "Learn more about fees",
+    "termsAndAgreementsModalHeader": "Terms and Agreements"
+  },
+  "vouchersList": {
+    "header": "Vouchers",
+    "buyMoreButton": "Buy more",
+    "myVouchersButton": "My Vouchers",
+    "pendingLabel": "Pending",
+    "redeemButton": "Redeem",
+    "redeemInProgressLabel": "Redeeming",
+    "redeemedLabel": "Redeemed",
+    "sectionTitles": {
+      "approved": "Active",
+      "redeem_pending": "Processing",
+      "redeemed": "Redeemed"
+    },
+    "sectionTooltips": {
+      "approved": "Active vouchers ready to redeem.",
+      "redeem_pending": "Vouchers that are in processing",
+      "redeemed": "Redeemed vouchers"
+    },
+    "redeemRequiresOnboardingMessage": "Voucher redemption requires connecting an ethereum address and verifying your email. Confirm to continue.",
+    "confirmRedeemMessage": "Click okay to request redemption of this voucher. We will email you when the funds have been deposited in your connected ethereum address."
+  },
+  "payment": {
+    "header": "Payment",
+    "subheader": "Complete payment to create your voucher. The crypto corresponding with this voucher will be held by Swarm Markets until redeemed. ",
+    "learnMoreLink": "Learn more",
+    "widgetLoadingText": "Loading...",
+    "errorActionButton": "buy"
+  }
+}

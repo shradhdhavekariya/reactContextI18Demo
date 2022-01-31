@@ -1,0 +1,18 @@
+{
+  "polygonInfo": {
+    "title": "Polygon",
+    "subtitle": "Faster, cheaper transactions\nOver $1bn assets on-chain",
+    "howToGetStarted": "How to get started?",
+    "instruction1_1": "1. Get Polygon’s gas token, Matic",
+    "instruction1_2": "from our faucet.",
+    "instruction1action": "Request",
+    "maticSent": "We have sent you some Matic, enough for your first few transactions. Enjoy!",
+    "pleaseConnect": "Please connect wallet to be able to receive Matic",
+    "alreadyRequested": "Already requested.",
+    "instruction2": "2. Move your Ethereum assets to Polygon.",
+    "instruction2action": "Bridge",
+    "learnAboutOtherWays": "Learn about other ways to get started on Polygon",
+    "dontShowAgain":"Do not show this message again.",
+    "close": "Close"
+  }
+}

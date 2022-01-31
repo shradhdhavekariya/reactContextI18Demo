@@ -1,0 +1,334 @@
+{
+  "email": {
+    "resent": "Confirmation email resent!",
+    "pleaseWait": "Please wait a minute for the email to be delivered before trying again"
+  },
+  "overview": {
+    "header": "Set up your Passport",
+    "subheader": "Your passport contains your personal details, verifications, trading allowances, and other important account information.",
+    "headerButton": "Continue later",
+    "skipForNow": "Skip for now",
+    "steps": {
+      "header": "Quickstart",
+      "subheader": "Set up your passport and get started in just a few minutes.",
+      "completedSubheader": "Completed. Swap or pool up to 5,000 EUR of assets.",
+      "completed": "Completed",
+      "cards": {
+        "1": {
+          "title": "Connect",
+          "description": "Connect to Metamask or any web3 wallet.",
+          "link": "Why do I need a wallet?",
+          "button": "Connect my wallet",
+          "duration": "Instant",
+          "completed": {
+            "title": "Wallet connected"
+          }
+        },
+        "2": {
+          "title": "Sign message",
+          "description": "Verify your Ethereum address with your connected wallet.",
+          "button": "Confirm signature in wallet",
+          "duration": "Instant",
+          "active": {
+            "description": "Verify your Ethereum address with your connected wallet. This does not cost any network fees."
+          },
+          "completed": {
+            "title": "Message signed",
+            "signedAddressTitle": "You signed with address:"
+          }
+        },
+        "3": {
+          "title": "Connect identity",
+          "description": "Connect with the Yoti App, Yoti DocScan or with your bank.",
+          "description-mobile": "This step must be completed on a desktop.",
+          "button": "Connect",
+          "duration": "1 to 10 min",
+          "pending": "Pending",
+          "pendingDescription": "Your connection is pending.\n Verifications are usually processed within 24 hours. We will notify you.",
+          "rejected": "Rejected",
+          "failed": "Failed",
+          "inProgress": "Pending, please wait for approval...",
+          "failedDescription": "Sorry, your account was not approved. If you feel this was in error, contact support.",
+          "failedDocscan": "Please try again or contact customer support.",
+          "details": "Details",
+          "completed": {
+            "title": "Identity verified"
+          }
+        },
+        "4": {
+          "title": "Confirm email",
+          "description": "Confirm your email and get started right away.",
+          "submitButton": "Submit",
+          "sentDescription": "Click the confirmation link we sent to:",
+          "sendAgain": "Send again",
+          "retry": "Retry",
+          "button": "Send email again",
+          "duration": "Instant",
+          "completed": {
+            "title": "Email confirmed",
+            "description": "The protocol will now update to enable your account. We will email you as soon as this is done."
+          }
+        },
+        "5": {
+          "accountApproved": "Account approved",
+          "accountNotApproved": "Account not approved",
+          "finalApproval": "Final approval",
+          "approvalPending": "Approval pending",
+          "pendingDescription": "Your details are being checked to complete your registration. In the meantime, you can transact up to 5,000 EUR.",
+          "approvedDescription": "Your account has been fully approved for unlimited transactions.",
+          "rejectionDescription": "Your account has not been approved.\n You may only remove any pooled assets.",
+          "yes": {
+            "title": "Verify your bank account",
+            "description": "Send a small payment to verify your bank account.",
+            "button": "Send payment",
+            "verified": "Bank account verified",
+            "viewDetails": "View details",
+            "fundsSent": "You sent funds at {{date}}"
+          }
+        },
+        "6": {
+          "title": "Complete registration",
+          "description": "Use your bank credentials to complete your registration.",
+          "finalizeDescription": "Use your bank credentials to finalize.",
+          "button": "Let’s do it!",
+          "download": "Download signed PDF",
+          "duration": "Instant",
+          "completed": "Registration complete"
+        },
+        "7": {
+          "approved": "Account approved",
+          "notApproved": "Account not approved",
+          "title": "Final approval",
+          "pendingDescription": "Your details are being checked to complete your registration. In the meantime, you can transact up to 5,000 EUR.",
+          "description": "Your account will be reviewed for unlimited transactions.",
+          "approvedDescription": "Your account has been fully approved for unlimited transactions.",
+          "notApprovedDescription": "Your account has not been approved. You may only remove any pooled assets.",
+          "duration": "24 hours"
+        }
+      }
+    },
+    "usAlert": {
+      "title": "Accessing from the USA?",
+      "content": "Current regulations prohibit us from offering our services to residents of the USA. You are still able to set up a passport and verify your details, however users who are verified as US residents will be unable to trade until regulations permit. We’re working on it.",
+      "link": "Learn more"
+    },
+    "unlimitedTrading": {
+      "title": "Want no limits?",
+      "content": "Take the steps below to remove your account limit.",
+      "link": "Learn more",
+      "noActionRequired": "No action required.",
+      "accountApproved": "Your account is approved.",
+      "accountNotApproved": "Your account has not been approved."
+    }
+  },
+  "verifyAddress": {
+    "header": "Set up your Passport",
+    "subheader": "Step 2 of 4: Verify your ethereum address",
+    "headerButton": "Continue later",
+    "currentAddressLabel": "Currently Connected Address",
+    "verifyOtherAddressLink": "Verify a different address (sign out)",
+    "description": "Verify your ownership of this address by signing a message with your wallet. Signing a message does not incur any network fees.",
+    "verifyButton": "Verify address",
+    "verifying": "Verifying address",
+    "register": "Set up passport",
+    "login": "Sign in",
+    "skipButton": "Skip for now",
+    "modal": {
+      "header": "Thank you.",
+      "status": "You have verified and linked your ethereum address.",
+      "tip": "You can unlink any address from your  Passport page. Continue to verify your identity.",
+      "nextButton": "Next step",
+      "backButton": "Back"
+    },
+    "error": "Signature was not provided!",
+    "success": "Ethereum address verified",
+    "noAccount": "No account connected",
+    "noSigner": "No Wallet is connected"
+  },
+  "verifyIdentity": {
+    "header": "Set up your Passport",
+    "subheader": "Step 3 of 4: Connect identity",
+    "headerButton": "Continue later",
+    "title": "Connect or verify your identity",
+    "faq": {
+      "title": "Why do I need to connect a verified identity?",
+      "description": "To comply with our license, we are required to identify you. We’ve selected partners who make this as painless as possible. Most people can be verified in minutes, some instantly.",
+      "link": "Learn more",
+      "linkTo": "/onboarding"
+    },
+    "cards": {
+      "yes": {
+        "title": "Connect with your bank",
+        "feature1": "Leverage your bank verification to start right away. (Germany only)",
+        "feature2": "Over 1,000 banks and 35 million customers supported.",
+        "feature3": "Use your bank credentials to onboard",
+        "button": "yes®"
+      },
+      "yoti": {
+        "title": "Connect with your Yoti app",
+        "feature1": "Yoti is reusable KYC. Keep your personal details safely stored in the Yoti app and control who you share them with.",
+        "feature2": "Join 9 million other Yoti users.",
+        "button": "Use Yoti"
+      },
+      "docScan": {
+        "title": "Verify your identity",
+        "feature1": "Nothing to download. Fast and simple.",
+        "feature2": "Simply provide two documents and a selfie.",
+        "button": "Start verification"
+      }
+    },
+    "messages": {
+      "yes": {
+        "successMessage": {
+          "message": "Successfully connected identity."
+        },
+        "errorMessage": {
+          "message": "Verification failed.",
+          "secondaryMessage": "An error happened while trying to verify your identity"
+        }
+      }
+    }
+  },
+  "verifyEmail": {
+    "header": "Set up your Passport",
+    "subheader": "Step 4 of 4: Verify email address",
+    "headerButton": "Continue later",
+    "currentEmailLabel": "Confirmation link was sent to:",
+    "sendEmailAgainLink": "Send confirmation email again",
+    "description": "Verify ownership of your email address by clicking the link we just sent you. This completes your registration.",
+    "backButton": "Back to overview",
+    "modal": {
+      "header": "Email confirmed!",
+      "status": "You have verified and linked your email address to your account.",
+      "instruction1": "Your passport will shortly be upgraded to trade up to 5,000 EUR. We will notify you.",
+      "instruction2": "Go to your passport to request unlimited trading.",
+      "nextButton": "Go to your Passport",
+      "backButton": "Close"
+    },
+    "landingPage": {
+      "header": "Email verification",
+      "details": "Please wait while your email is being verified",
+      "pendingMessage": "Please wait while your email is being verified",
+      "successMessage": "You have confirmed your email.",
+      "successDetails": "Congratulations, your registration is complete!\nThe protocol will now update to enable your account. We will email you as soon as this is done.",
+      "errorMessage": "Could not verify email",
+      "errorDetails": "Looks like the verification link has expired or your email has already been verified. Please try again, and if you continue having problems, contact support via chat.",
+      "goToPassport": "Go to your Passport",
+      "goToOnBoarding": "Go to on boarding",
+      "whyShouldIWait": "Why should I wait?"
+    },
+    "verifiedSuccess": "Quickstart completed. Trading limit is being set to 5,000 EUR. We will email you shortly."
+  },
+  "kyc": {
+    "feedback": {
+      "danger": {
+        "heading": "Oops...",
+        "message": "KYC process failed, please try again",
+        "description": "We were unable to verify your Identity. ",
+        "discriptionContinued": "Please try again, or chat with us via Zendesk. "
+      },
+      "success": {
+        "heading": "Success!",
+        "message": "You have successfully verified your identity.",
+        "description": "Complete your registration by verifying your email address. Please click the confirmation link in the email we just sent you. ",
+        "discriptionContinued": ""
+      },
+      "warning": {
+        "heading": "Approval pending...",
+        "message": "Thank you, we have successfully received your details. Your approval is pending verification.",
+        "description": "We aim to process verifications within 24 hours. Please check back soon.",
+        "discriptionContinued": ""
+      },
+      "reasonDesc": "The following reason was provided: ",
+      "reason": {
+        "NO_DOCUMENT": "Please upload a document.",
+        "COUNTERFEIT": "We need to manually check some details. We’ll email you when this has been completed.",
+        "EXPIRED_DOCUMENT": "Your document is expired. Please try again with a valid document.",
+        "FRAUD_LIST_MATCH": "We need to manually check some details. We’ll email you when this has been completed.",
+        "DOCUMENT_COPY": "Please try again with original documents.",
+        "ISSUING_AUTHORITY_INVALID": "We need to manually check some details. We’ll email you when this has been completed.",
+        "TAMPERED": "We need to manually check some details. We’ll email you when this has been completed.",
+        "MISSING_HOLOGRAM": "Your document could not be processed. Please try again with a different capture method or in a brighter area.",
+        "NO_HOLOGRAM_MOVEMENT": "Your document could not be processed. Please try again with a different capture method or in a brighter area.",
+        "DATA_MISMATCH": "We need to manually check some details. We’ll email you when this has been completed.",
+        "DOC_NUMBER_INVALID": "We need to manually check some details. We’ll email you when this has been completed.",
+        "CHIP_DATA_INTEGRITY_FAILED": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "CHIP_SIGNATURE_VERIFICATION_FAILED": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "CHIP_CSCA_VERIFICATION_FAILED": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "DOCUMENT_TOO_DAMAGED": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "DOCUMENT_NOT_SUPPORTED": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "INCORRECT_MRZ": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "DOCUMENT_VERSION_NOT_SUPPORTED": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "MISUSE": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "INVALID": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "CHIP_PARSE": "Your document is not supported or unable to be processed. Please try again with a different document",
+        "CHIP_SOD_PARSE": "Your Documents are not valid, Please try again with a different document.",
+        "DEFAULT": "Unknown Error Occured.",
+        "COUNTRY_NOT_SUPPORTED": "We need to manually check some details. We’ll email you when this has been completed.",
+        "MISSING_DOCUMENT_SIDE": "Please try again including both sides of the document.",
+        "CATCH-ALL": "Your document could not be processed. Please try again with a different document, ensuring you are in a well-lit space and your document is fully and clearly visible.",
+        "PHOTO_OVEREXPOSED": "Your document could not be processed. Please try again, ensuring you are in a well-lit space and your document is fully and clearly visible.",
+        "PHOTO_TOO_DARK": "Your document could not be processed. Please try again, ensuring you are in a well-lit space and your document is fully and clearly visible.",
+        "PHOTO_TOO_BLURRY": "Your document could not be processed. Please try again, ensuring you are in a well-lit space and your document is fully and clearly visible.",
+        "GLARE_OBSTRUCTION": "Your document could not be processed. Please try again, ensuring you are in a well-lit space and your document is fully and clearly visible.",
+        "OBJECT_OBSTRUCTION": "Your document could not be processed. Please try again, ensuring you are in a well-lit space and your document is fully and clearly visible.",
+        "PARTIAL_PHOTO": "Your document could not be processed. Please try again, ensuring you are in a well-lit space and your document is fully and clearly visible.",
+        "IMAGE_RESOLUTION_TOO_LOW": "Your document could not be processed. Please try again, ensuring you are in a well-lit space and your document is fully and clearly visible.",
+        "BLACK_AND_WHITE_IMAGE": "Please try again with a different document, preferably in color.",
+        "INCORRECT_DOCUMENT_TYPE": "The document you provided did not match your selection. Please try again with a different document."
+      },
+      "startAgain": "Try again",
+      "contact": "Back",
+      "backToOverview": "Back to overview"
+    }
+  },
+  "verifyBank": {
+    "headerButton": "Continue later",
+    "header": "Set up your Passport",
+    "subHeader": "Step 5 of 6: Verify your bank account",
+    "title": "Confirmation transaction details",
+    "intro": "Send <1>1 EUR</1> from your bank to verify your account.",
+    "notice": "The funds must be sent from an account in your name.",
+    "accountNumber": "Account Number (IBAN):",
+    "swift": "BIC/SWIFT:",
+    "bankName": "Bank name:",
+    "accountName": "Account name:",
+    "paymentReference": "Payment reference:",
+    "confirmButton": "I've sent the funds",
+    "backButton": "Back",
+    "footnoteTitle": "Why do I need to connect my bank account?",
+    "footnoteBody": "To enable all protocol features you are required to verify your bank account by sending a small payment.",
+    "footnoteLink": "Learn more about onboarding",
+    "status": "Status",
+    "statusPending": "Awaiting payment confirmation",
+    "dateSent": "You sent funds:",
+    "dateReceived": "We will receive funds",
+    "withinDays": "Within 1 - 2 business days",
+    "backToOverviewButton": "Back to overview",
+    "resetButton": "I haven’t sent funds"
+  },
+  "signToS": {
+    "header": "Set up your Passport",
+    "headerButton": "Skip for now",
+    "subHeader": "Step 6 of 6: Complete registration",
+    "signButton": "Sign with your bank",
+    "downloadButton": "Download as PDF",
+    "pdfName": "SWARM Terms of Service.pdf",
+    "successMessage": "Your electronic signature was received."
+  },
+  "viewDetails": "View details",
+  "startTrading": "Start trading",
+  "goToPools": "Go to pools",
+  "connectIdentityPrivacy": {
+    "1": "I have read and accept the",
+    "2": "I confirm that all information I provide is truthful and complete, and that",
+    "3Front": "I understand and accept the",
+    "3Back": "I consent to the collection, storage, and processing of my personal information accordingly.",
+    "connect": "Connect",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "notUserPerson": "I am not a US person or hold identity from other countries not serviced",
+    "privacyPractices": "privacy practices",
+    "header": "Terms and Agreements"
+  }
+}

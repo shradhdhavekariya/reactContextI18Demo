@@ -1,0 +1,20 @@
+query PoolShares($limit: Int = 20, $skip: Int = 0, $filter: PoolShare_filter) {
+  poolShares (
+    orderBy: "balance",
+    orderDirection: "desc",
+    where: $filter,
+    first: $limit,
+    skip: $skip
+  ) {
+    id
+    userAddress {
+      id
+      isCpkId
+      userAddress
+    }
+    poolId {
+      id
+    }
+    balance
+  }
+}

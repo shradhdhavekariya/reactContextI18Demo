@@ -1,0 +1,83 @@
+{
+  "header": "Passport",
+  "myDetails": {
+    "header": "My details",
+    "status": "Status",
+    "fullName": "Full name",
+    "emailAddress": "Email address",
+    "tradingLimit": "Trading limit",
+    "tradingLimitHelpText": "All transactions count towards your limit. Applied per account.",
+    "tradingLimitLink": "Get unlimited trading",
+    "nationality": "Nationality",
+    "residentialAddress": "Residential address",
+    "bankAccount": "Bank account",
+    "update": "Update",
+    "5000": "5,000 EUR",
+    "unlimited": "Unlimited",
+    "upgrade": "Upgrade to unlimited",
+    "upgradePending": "Upgrade pending.",
+    "setupPassport": "Set up your passport",
+    "suspended": "Temporarily suspended",
+    "rejected": "You may only remove any pooled assets."
+  },
+  "status": {
+    "verified": {
+      "limited": "Verified (Limited)",
+      "unlimited": "Verified (Unlimited)"
+    },
+    "rejected": "Not approved",
+    "suspended": "Under review",
+    "notVerified": "Not verified"
+  },
+  "myAddresses": {
+    "header": "My addresses",
+    "addAddress": "Add address",
+    "copy": "Copy",
+    "viewOnEtherscan": "View on Etherscan",
+    "unlink": "Unlink",
+    "th": {
+      "address": "Address",
+      "label": "Label",
+      "linkedTo": "Linked to"
+    },
+    "newAddress": "Add new address",
+    "instructions": "You are linking a new ethereum address to your Passport.",
+    "linked": "linked",
+    "add": "Add",
+    "addressLinked": "This address is already linked to you!",
+    "addressRegistered": "This address has been previously registered. Please select another address.",
+    "addError": "Some error occurred and we could not add your address",
+    "addNameError": "Some error occurred and we could not updated your address name",
+    "tryAgain": "Please try again later",
+    "addSuccess": "Address ({{address}}) was added successfully!",
+    "addNameSuccess": "Address name updated successfully!",
+    "connectedAddress": "Connected address",
+    "unlinkConfirmationHeading": "Confirm unlinking address",
+    "unlinkConfirmationText": "Are you sure you want to unlink this address: <1>({{address}})</1>?",
+    "unlinkConfirmationDescription": "You are unlinking your ethereum address from your Passport. The address will be unable to transact unless  you link it again in the future. Remove all assets from the platform before proceeding.",
+    "confirm": "Confirm",
+    "unlinkAddress": "Address ({{address}}) was unlinked successfully!",
+    "unlinkAddressError": "An error occurred when trying to unlink address ({{address}})",
+    "noAddressConnected": "No address connected",
+    "modal": {
+      "header": "Add new address",
+      "editAddress": "Edit address",
+      "instruction": "You are linking a new ethereum address to your Passport.",
+      "instruction1": "In your wallet, select or change to the address you want to add. You will then confirm and sign a message with your new address.",
+      "selectNewAddress": "Select your new address in your wallet",
+      "yourNewAddress": "Your new address",
+      "giveAddressName": "Give you new address a name (optional)",
+      "confirmInstruction": "Confirm your new address in your wallet.",
+      "add": "Add",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "addressInputPlaceholder": "Enter address name",
+      "unlink": "Unlink",
+      "confirmation": "I confirm i have removed all assets from the platform and wish to unlink this address from my account.",
+      "connectNewAddress": "(Select and connect new address)"
+    }
+  },
+  "general": {
+    "copiedToClipboard": "Address ({{address}}) copied to clipboard."
+  }
+}
